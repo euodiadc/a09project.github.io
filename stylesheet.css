@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 1;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-family: Verdana;
+  }
+  
+.top-wrapper h2 {
+    font-family: verdana;
+}
+
+  .top-wrapper p {
+    opacity: 2;
+    margin-bottom: 3px;
+    font-family: 'Lucida Sans';
+  }
+  
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .profile {
+    background-color: green;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: black;
+    display: inline-block;
+    opacity: 1;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  /* Tambahkan CSS untuk tag <header> */
+  header {
+    height: 40px;
+    width: 100%;
+    background-color: purple;
+  }
+  /* Tambahkan CSS untuk logo */
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+
+  .lesson {
+    float: left;
+    width: 20%;
+  }
+  
+  .lesson-icon {
+  
+    position: relative;
+  }
+  .lesson-icon img{
+      width:200px;
+      height:200px;
+  }
+  .lesson-icon p {
+    position: absolute;
+    top: 105%;
+    width: 100%;
+    color: rgb(7, 0, 0);
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 15px;
+    color: #0b073f;
+  }
+
+  .footer {
+    background-color: white;
+    color: #800808;
+    height: 40px;
+    padding: 20px;
+}
+
+.footer-logo {
+    font-size: 32px;
+    float: left;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+}
